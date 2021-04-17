@@ -25,6 +25,12 @@ html{
 #Main-Contents .title{
     background-color: blueviolet;
 }
+
+#Main-Contents .search-bar input {
+    position: center;
+    padding: 5px 8px 0px 14px;
+}
+
 #Main-Contents .buttons{
     position: center;
     margin: 11px 4px;
@@ -32,3 +38,20 @@ html{
 }
 /*End Main Contents*/
 
+/*Blank*/
+#Blank .blank{
+    color: white;
+}
+/*End Blank*/
+
+/*Footer*/
+#Footer .left-footer-list ul{
+    list-style: none;
+    display: flex;
+}
+
+#Footer .right-footer-list ul{
+    list-style: none;
+    display: flex;
+}
+/*End Footer*/
