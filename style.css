@@ -13,21 +13,22 @@ html{
 }
 /*End Header*/
 
-.span{
-    color: #4285f4;
+
+/*Main Contents*/
+.span{ color: #4285f4; }
+.span1 { color: #ea4335; }
+.span2 { color: #fbbc05; }
+.span3 { color: #4285f4; }
+.span4 { color: #34a853; }
+.span5 { color: #ea4335; }
+
+#Main-Contents .title{
+    background-color: blueviolet;
 }
-.span1 {
-    color: #ea4335;
+#Main-Contents .buttons{
+    position: center;
+    margin: 11px 4px;
+    padding: 0px 30px;         /*left: top and bottom / right: left and right*/
 }
-.span2 {
-    color: #fbbc05
-}
-.span3 {
-    color: #4285f4;
-}
-.span4 {
-    color: #34a853;
-}
-.span5 {
-    color: #ea4335;
-}
+/*End Main Contents*/
+
