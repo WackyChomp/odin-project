@@ -9,7 +9,23 @@ html{
 #Header ul{
     list-style: none;
     display: flex;
+}
 
+#Header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;       /*large split if only two items*/
+    background-color: aqua;
+}
+
+#Header .left-nav-list{
+    background-color: #fbbc05;
+}
+
+#Header .right-nav-list{
+    display: flex;
+    align-items: center;
+    background-color: #ea4335;
 }
 /*End Header*/
 
