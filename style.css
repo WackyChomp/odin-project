@@ -11,6 +11,10 @@ html{
     display: flex;
 }
 
+#Header li{
+    padding: 0px 15px 0px 0px;
+}
+
 #Header .nav-bar{
     display: flex;
     align-items: center;
@@ -26,6 +30,13 @@ html{
     display: flex;
     align-items: center;
     background-color: #ea4335;
+}
+
+#Header .button{
+    margin: 0px 8px;
+    padding: 9px 23px;
+    background-color: #1A73E8;
+    
 }
 /*End Header*/
 
