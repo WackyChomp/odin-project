@@ -49,6 +49,10 @@ html{
 .span4 { color: #34a853; }
 .span5 { color: #ea4335; }
 
+#Main-Contents{
+    background-color: violet;
+}
+
 #Main-Contents .title{
     background-color: blueviolet;
 }
@@ -69,9 +73,18 @@ html{
 #Blank .blank{
     color: white;
 }
+
+#Blank{
+    background-color: teal;
+}
 /*End Blank*/
 
 /*Footer*/
+
+#Footer{
+    background-color: tomato;
+}
+
 #Footer .left-footer-list ul{
     list-style: none;
     display: flex;
