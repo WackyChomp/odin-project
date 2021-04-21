@@ -81,17 +81,32 @@ html{
 
 /*Footer*/
 
-#Footer{
+#Footer .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: tomato;
 }
 
-#Footer .left-footer-list ul{
+#Footer .link a{
+    text-decoration: none;
+    color: #70757A;
+}
+
+#Footer ul{
     list-style: none;
     display: flex;
 }
 
-#Footer .right-footer-list ul{
-    list-style: none;
-    display: flex;
+#Footer li{
+    padding: 15px;
+}
+
+#Footer .left-footer-list{
+    font-size: 14px;
+}
+
+#Footer .right-footer-list{
+    font-size: 14px;
 }
 /*End Footer*/
