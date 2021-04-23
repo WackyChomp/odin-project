@@ -70,16 +70,21 @@ a:hover{
     background-color: blueviolet;
 }
 
-#Main-Contents .search-bar input {
+#Main-Contents .search-bar {
     position: center;
     padding: 10px 100px 0px 14px;
     align-items: center;
+    width: 0%;
+    margin: auto;         /*(margin: auto) works if there is a width*/
+    display: flex;
 }
 
 #Main-Contents .buttons{
     position: center;
     margin: 11px 4px;
     padding: 0px 30px;         /*left: top and bottom / right: left and right*/
+    width: 20%;
+    margin: auto;        /*(margin: auto) works if there is a width*/
 }
 /*End Main Contents*/
 
