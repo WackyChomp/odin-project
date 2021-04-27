@@ -90,6 +90,18 @@ a:hover{
     justify-content: center;
 }
 
+.search-bar .search-icon .material-icons{
+    font-size: 36px;
+    color: blue;
+    border: 2px solid black;
+}
+
+.search-bar .voice-icon .material-icons{
+    font-size: 36px;
+    color: rgb(236, 134, 16);
+    border: 4px solid green;
+}
+
 #Main-Contents .buttons{
     position: center;
     margin: 11px 4px;
