@@ -74,8 +74,12 @@ a:hover{
 
 #Main-Contents .title{
     background-color: blueviolet;
-    width: 10%;
+    display: inline-block;       /*This alone wraps the header with background color*/
+    display: table;
+    text-align: center;
+    border: 2px solid white;
     margin: auto;
+    font-size: 50px;
 }
 
 #Main-Contents .search-bar {
