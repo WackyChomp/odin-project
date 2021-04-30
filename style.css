@@ -88,6 +88,7 @@ a:hover{
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bar{
@@ -123,6 +124,7 @@ a:hover{
 #Blank .blank{
     color: white;
     font-size: 8px;
+    padding-bottom: 20px;
 }
 
 #Blank{
@@ -137,6 +139,10 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     background-color: tomato;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 #Footer a{
