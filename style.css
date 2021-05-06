@@ -38,17 +38,19 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;       /*large split if only two items*/
-    background-color: aqua;
+    background-color: white;        /*previous color: aqua*/
 }
 
 #Header .left-nav-list{
-    background-color: #fbbc05;
+    background-color: white;       /*previous color: #fbbc05*/
+    font-size: 14px;
 }
 
 #Header .right-nav-list{
     display: flex;
     align-items: center;
-    background-color: #ea4335;
+    background-color: white;            /*previous color: #ea4335*/
+    font-size: 14px;
 }
 
 #Header .button{
@@ -69,12 +71,12 @@ a:hover{
 .span5 { color: #ea4335; }
 
 #Main-Contents .main-contents-container{
-    background-color: violet;
+    background-color: white;      /*previous color: violet*/
     padding-bottom: 100px;
 }
 
 #Main-Contents .title{
-    background-color: blueviolet;
+    background-color: white;      /*previous color: blueviolet*/
     display: inline-block;       /*This alone wraps the header with background color*/
     display: table;
     text-align: center;
@@ -96,25 +98,25 @@ a:hover{
     height: 35px;
     font-size: 20px;
     outline: none;
-    width: 400px;
+    width: 550px;
 }
 
 .bar{
-    border: 2px solid red;
+    border: 2px solid white;            /*previous color: red*/
     align-items: top;
 }
 
 .search-bar .search-icon .material-icons{
-    font-size: 36px;
-    color: blue;
-    border: 2px solid black;
+    font-size: 25px;
+    color: black;                  /*previous color: blue*/
+    border: 2px solid white;      /*previous color: black*/
     border-radius: 50%;
 }
 
 .search-bar .voice-icon .material-icons{
-    font-size: 36px;
-    color: rgb(236, 134, 16);
-    border: 4px solid green;
+    font-size: 25px;
+    color: black;          /*previous color: rgb(236, 134, 16)*/
+    border: 4px solid white;           /*previous color: green*/
     border-radius: 50%;
 }
 
@@ -136,7 +138,7 @@ a:hover{
 }
 
 #Blank{
-    background-color: teal;
+    background-color: white;         /*previous color: teal*/
 }
 /*End Blank*/
 
