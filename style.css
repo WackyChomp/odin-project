@@ -91,9 +91,15 @@ a:hover{
     flex-wrap: wrap;
 }
 
+.search-bar input{
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+}
+
 .bar{
-    padding: 5px 8px 0px 14px;
-    border: 1px solid red;
+    border: 2px solid red;
+    align-items: top;
 }
 
 .search-bar .search-icon .material-icons{
