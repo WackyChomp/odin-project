@@ -27,6 +27,7 @@ a:hover{
 
 #Header li{
     padding: 0px 15px 0px 0px;
+    padding: 10px;         /*This fills the rest of the background */
 }
 
 #Header a{
@@ -95,6 +96,7 @@ a:hover{
     height: 35px;
     font-size: 20px;
     outline: none;
+    width: 400px;
 }
 
 .bar{
@@ -144,7 +146,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: tomato;
+    background-color: rgb(224, 223, 223);     /*previous color: tomato*/
     position: relative;
     position: absolute;
     bottom: 0;
