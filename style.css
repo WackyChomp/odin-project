@@ -1,0 +1,178 @@
+
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+html{
+    font-family: "Open Sans";
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Header*/
+#Header ul{
+    list-style: none;
+    display: flex;
+}
+
+#Header li{
+    padding: 0px 15px 0px 0px;
+    padding: 10px;         /*This fills the rest of the background */
+}
+
+#Header a{
+    color: #000000DE;
+}
+
+#Header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;       /*large split if only two items*/
+    background-color: white;        /*previous color: aqua*/
+}
+
+#Header .left-nav-list{
+    background-color: white;       /*previous color: #fbbc05*/
+    font-size: 14px;
+}
+
+#Header .right-nav-list{
+    display: flex;
+    align-items: center;
+    background-color: white;            /*previous color: #ea4335*/
+    font-size: 14px;
+}
+
+#Header .button{
+    margin: 0px 8px;
+    padding: 9px 23px;
+    background-color: #1A73E8;
+    
+}
+/*End Header*/
+
+
+/*Main Contents*/
+.span{ color: #4285f4; }
+.span1 { color: #ea4335; }
+.span2 { color: #fbbc05; }
+.span3 { color: #4285f4; }
+.span4 { color: #34a853; }
+.span5 { color: #ea4335; }
+
+#Main-Contents .main-contents-container{
+    background-color: white;      /*previous color: violet*/
+    padding-bottom: 100px;
+}
+
+#Main-Contents .title{
+    background-color: white;      /*previous color: blueviolet*/
+    display: inline-block;       /*This alone wraps the header with background color*/
+    display: table;
+    text-align: center;
+    border: 2px solid white;
+    margin: auto;
+    font-size: 50px;
+}
+
+#Main-Contents .search-bar {
+    position: center;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search-bar input{
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    width: 550px;
+}
+
+.bar{
+    border: 2px solid white;            /*previous color: red*/
+    align-items: top;
+}
+
+.search-bar .search-icon .material-icons{
+    font-size: 25px;
+    color: black;                  /*previous color: blue*/
+    border: 2px solid white;      /*previous color: black*/
+    border-radius: 50%;
+}
+
+.search-bar .voice-icon .material-icons{
+    font-size: 25px;
+    color: black;          /*previous color: rgb(236, 134, 16)*/
+    border: 4px solid white;           /*previous color: green*/
+    border-radius: 50%;
+}
+
+#Main-Contents .buttons{
+    position: center;
+    margin: 11px 4px;
+    padding: 0px 30px;         /*left: top and bottom / right: left and right*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;            /*space between flex items*/
+}
+/*End Main Contents*/
+
+/*Blank*/
+#Blank .blank{
+    color: white;
+    font-size: 8px;
+    padding-bottom: 20px;
+}
+
+#Blank{
+    background-color: white;         /*previous color: teal*/
+}
+/*End Blank*/
+
+/*Footer*/
+
+#Footer .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(224, 223, 223);     /*previous color: tomato*/
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#Footer a{
+    color: #70757A;
+}
+
+#Footer ul{
+    list-style: none;
+    display: flex;
+}
+
+#Footer li{
+    padding: 15px;
+}
+
+#Footer .left-footer-list{
+    font-size: 14px;
+}
+
+#Footer .right-footer-list{
+    font-size: 14px;
+}
+/*End Footer*/
